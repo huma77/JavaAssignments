@@ -14,7 +14,6 @@ public class AnimalMain {
 		animal = new Eagle();
 		sound = animal.makeSound();
 		System.out.println("Sound: " + sound);
-		System.out.println("Checking");
 	}
 
 }

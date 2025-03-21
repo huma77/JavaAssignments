@@ -16,8 +16,6 @@ public class StudentMain {
 		double val = student.checkNumber(78);
 		System.out.println(val);
 		
-		System.out.println("Hello ");
-		
 	}
 
 }
