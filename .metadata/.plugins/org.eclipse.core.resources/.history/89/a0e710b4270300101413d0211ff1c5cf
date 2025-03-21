@@ -1,0 +1,5 @@
+package com.assign.test1;
+
+public class Employee extends Person {
+
+}

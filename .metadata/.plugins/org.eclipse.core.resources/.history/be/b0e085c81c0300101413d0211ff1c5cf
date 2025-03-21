@@ -1,0 +1,20 @@
+package com.inher.quest1;
+
+public class TeamTwo extends Project{
+	// override doTask - "Project implemented using Python" 
+	void DoTask() {
+		System.out.println("Project implemented using Python");
+	}
+	void softwaresUsed(String...tools){ 
+		 //Iterate through the tools and print it(eclipse. Jenkins, maven) 
+		
+	}  
+	/* create ownmethod as   
+	String[] getTechStack(){ return an array having 
+			{“Java”,”Spring,”Angular”} } 
+			} */
+	
+	String[] getTechStack(){ 
+		return //an array having {“Java”,”Spring,”Angular”} } 
+	} 
+}

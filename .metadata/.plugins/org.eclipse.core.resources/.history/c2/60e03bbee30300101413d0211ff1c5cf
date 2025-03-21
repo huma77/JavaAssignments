@@ -1,0 +1,9 @@
+package com.assign.test2;
+
+public class MainVehicle {
+
+	public static void main(String[] args) {
+		
+	}
+
+}

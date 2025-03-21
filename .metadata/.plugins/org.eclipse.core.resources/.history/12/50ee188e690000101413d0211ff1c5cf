@@ -1,0 +1,16 @@
+package com.overload.quest3;
+
+public class Messenger {
+	void sendMail() {
+		System.out.println("Hello, how you doing? ");
+	}
+}
+/*
+void sendMail(String message){// add simple print stmts} 
+void sendMail(String tousername, String message){// add simple 
+print stmts} 
+ 
+o void sendMail(String tousername, String message,String subject){// 
+add simple print stmts} 
+} 
+*/

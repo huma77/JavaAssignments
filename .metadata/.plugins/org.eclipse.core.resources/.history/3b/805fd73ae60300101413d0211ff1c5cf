@@ -1,0 +1,13 @@
+package com.assign.test2;
+
+public class Car extends Vehicle {
+	int numDoors;
+
+	public Car(String brand, double speed, int numDoors) {
+		super(brand, speed);
+		this.numDoors = numDoors;
+	}
+	void displayDetails() {
+		System.out.println("Number of doors: " + numDoors);
+	}
+}

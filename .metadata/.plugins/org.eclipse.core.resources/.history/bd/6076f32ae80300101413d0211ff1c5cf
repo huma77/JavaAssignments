@@ -1,0 +1,16 @@
+package com.assign.test2;
+
+public class MainVehicle {
+
+	public static void main(String[] args) {
+		Car car = new Car("Minicooper", 220, 3); // Object of Car class
+		Bike bike = new Bike("Honda", 70, true);
+		// Calling methods in main class
+		//Display Details
+		System.out.println("Car details:");
+		car.displayDetails();
+		System.out.println("Bike details:");
+		bike.displayDetails();
+	}
+
+}

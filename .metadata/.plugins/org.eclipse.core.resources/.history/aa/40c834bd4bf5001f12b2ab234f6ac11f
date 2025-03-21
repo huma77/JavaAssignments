@@ -1,0 +1,9 @@
+package com.assign;
+
+public class Smaller {
+
+	public static void main(String[] args) {
+		int num = 
+	}
+
+}

@@ -1,0 +1,5 @@
+package com.assign.test6;
+
+public class GraduateStudent extends Student {
+
+}

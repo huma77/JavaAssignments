@@ -1,0 +1,8 @@
+package com.assign.basics;
+
+import java.util.Scanner;
+
+public class EvenNumber {
+	Scanner sc = new Scanner();
+	
+}

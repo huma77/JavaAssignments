@@ -1,0 +1,7 @@
+package com.assign.test6;
+
+import com.assign.test.Student;
+
+public class GraduateStudents extends Student {
+
+}

@@ -1,0 +1,12 @@
+package com.oops.basic;
+
+public class Student {
+	String studentName;
+	String city;
+	int studentId;
+	
+	void printDetails() {
+		System.out.println(studentName+ city +studentId );
+	}
+	
+}

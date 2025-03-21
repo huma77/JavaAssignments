@@ -1,0 +1,11 @@
+package com.assign.quest7;
+
+public class ITCompany extends Company {
+	int numOfDevelopers;  
+	String techStack;
+	public ItCompany(String companyName, int numOfDevelopers, String techStack) {
+		super(companyName);
+		this.numOfDevelopers = numOfDevelopers;
+		this.techStack = techStack;
+	}
+}

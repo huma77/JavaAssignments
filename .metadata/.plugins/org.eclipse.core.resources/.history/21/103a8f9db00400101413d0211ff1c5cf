@@ -1,0 +1,15 @@
+package com.inher.quest1;
+
+public class CompanyMain {
+	/*
+	 Project project =  new TeamOne(); 
+ 	 call the method of TeamOne 
+	 Also call the own method of TeamOne 
+	 Follow the same process for TeamTwo 
+		} 
+	 */
+	 
+	public static void main(String[] args) {
+		Project project = new Project();
+	}
+}

@@ -1,0 +1,19 @@
+package com.assign.test;
+
+public class Student {
+	String[] showCourse(){
+		String[] course = {"Java", "PHP","HTML", "CSS"};
+		return course;
+	}
+	double printAvg(int...marks){
+		int sum = 0;
+		for(int mark : marks){
+			sum = sum+mark;
+		}
+		double avg = sum/marks.length;
+		return avg;
+	}
+	void greet(String name) {
+		System.out.println("Welcome"+name);
+	}
+}

@@ -1,0 +1,8 @@
+package com.assign;
+
+public class Even {
+	public static void main(String[] args ){
+		
+	}
+			
+}

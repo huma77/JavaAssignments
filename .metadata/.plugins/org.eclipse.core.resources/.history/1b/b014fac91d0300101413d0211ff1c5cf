@@ -1,0 +1,18 @@
+package com.inher.quest1;
+
+public class TeamTwo extends Project{
+	// override doTask - "Project implemented using Python" 
+	
+	void doTask() {
+		super.doTask("Project implemented using Python");
+	}
+	String[] getTechStack(){ return an array having 
+			{“Java”,”Spring,”Angular”} } 
+			@Override
+	
+			} */
+	
+	String[] getTechStack(){ 
+		return //an array having {“Java”,”Spring,”Angular”} } 
+	} 
+}

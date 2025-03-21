@@ -1,0 +1,10 @@
+package com.assign.test5;
+
+public class BankAccount {
+	void deposit(){
+		
+	}
+	void withdraw(){
+		
+	}
+}

@@ -1,0 +1,9 @@
+package com.assign;
+
+public class SmallSecond {
+
+	public static void main(String[] args) {
+		
+	}
+
+}

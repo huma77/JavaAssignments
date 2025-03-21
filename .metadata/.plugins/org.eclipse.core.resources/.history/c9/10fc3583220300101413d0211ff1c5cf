@@ -1,0 +1,5 @@
+package com.assign.test;
+
+public class OnlineStudent extends Student {
+
+}

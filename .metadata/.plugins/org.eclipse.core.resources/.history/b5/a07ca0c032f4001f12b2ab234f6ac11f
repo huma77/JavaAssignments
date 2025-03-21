@@ -1,0 +1,14 @@
+package com.demo.training;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Doctor doctor= new Doctor();
+		doctor.doctorName = "Mary";
+		doctor.doctorFees = 500.00;
+	System.out.println("doctor " + doctor.doctorName );
+	System.out.println("doctor " + doctor.doctorFees );
+	}
+	
+
+}

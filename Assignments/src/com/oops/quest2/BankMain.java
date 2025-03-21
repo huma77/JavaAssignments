@@ -1,0 +1,15 @@
+package com.oops.quest2;
+
+public class BankMain {
+	public static void main(String[] args) {
+		Bank bank =new Bank(10000);
+		bank.withdraw(2000);
+		//bank.getBalance();
+		double money =bank.getBalance();
+		System.out.println(money);
+		
+		bank.deposit(2000);
+		
+		System.out.println(bank.getBalance());
+	}
+}

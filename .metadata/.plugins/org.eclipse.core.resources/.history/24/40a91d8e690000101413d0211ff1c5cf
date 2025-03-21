@@ -1,0 +1,9 @@
+package com.overload.quest3;
+
+public class MessengerMain {
+
+	public static void main(String[] args) {
+		Messenger messenger = new Messenger();
+	}
+
+}

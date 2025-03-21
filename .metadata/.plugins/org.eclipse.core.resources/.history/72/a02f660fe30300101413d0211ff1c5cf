@@ -1,0 +1,10 @@
+package com.assign.test2;
+
+public class Bike extends Vehicle {
+	public Bike(String brand, double speed, String hasHelmet) {
+		super(brand, speed);
+		this.hasHelmet = hasHelmet;
+	}
+
+	String hasHelmet;
+}

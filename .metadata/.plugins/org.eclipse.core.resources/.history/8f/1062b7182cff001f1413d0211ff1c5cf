@@ -1,0 +1,14 @@
+package com.over.quest2;
+
+public class ProcessMain {
+
+	public static void main(String[] args) {
+		Processor processor = new Processor();
+		processor.calculate(100.00);
+		processor.calculate(4, 6);
+		processor.calculate(8.0, 2.0);
+		processor.calculate(2, 4);
+		processor.calculate(5);
+	}
+
+}

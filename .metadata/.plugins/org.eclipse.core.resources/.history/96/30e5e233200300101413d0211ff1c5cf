@@ -1,0 +1,8 @@
+package com.assign.test;
+
+public class Course {
+	String[] showCourse(){
+		String[] course = {"a","b","c"};
+		return course;
+	}
+}

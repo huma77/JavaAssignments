@@ -1,0 +1,25 @@
+
+		/*
+		 * Get user input for employee name and designation as Manager, 
+		programmer, Director.  
+		∙Create 5 employee objects. Add the objects to an employee array 
+		∙Based on the designation call the appropriate calcBonus method 
+		∙If the input for designation is Programmer call method with one 
+		argument(basicAllowance) 
+		∙If the input for designation is Manager, call method with 2 
+		arguments(basicAllowance,gift) 
+		∙If the input for designation is Director call method with 3 
+		argumemts(basicAllowance,gift,housingAllowance) 
+		*/
+package com.over.quest1;
+
+import java.util.Scanner;
+
+public class Overload1Main {
+
+	public static void main(String[] args) {
+		
+		 Scanner sc = new Scanner(System.in);
+	}
+
+}

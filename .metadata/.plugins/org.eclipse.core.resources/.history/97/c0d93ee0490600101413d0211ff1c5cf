@@ -1,0 +1,11 @@
+package com.abs.quest;
+
+public class Bird extends Animal {
+
+	@Override
+	String makeSound() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

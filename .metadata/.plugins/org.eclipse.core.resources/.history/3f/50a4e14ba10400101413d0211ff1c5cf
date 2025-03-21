@@ -1,0 +1,15 @@
+package com.assign.test5;
+
+public class BankAccount {
+	double balance;
+	public BankAccount(double balance) {
+		super();
+		this.balance = balance;
+	}
+	void deposit(){
+		balance = balance + deposit;
+	}
+	void withdraw(){
+		balance = balance - withdraw;
+	}
+}

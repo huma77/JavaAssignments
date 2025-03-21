@@ -1,0 +1,14 @@
+package com.assign.test2;
+
+public class Bike extends Vehicle {
+	boolean hasHelmet;
+	public Bike(String brand, int speed, boolean hasHelmet) {
+		super(brand, speed);
+		this.hasHelmet = hasHelmet;
+	}
+	void displayDetails() {
+		super.displayDetails();
+		System.out.println("Helmet needed: "+ (hasHelmet? "Yes":"No"));
+	}
+	
+}

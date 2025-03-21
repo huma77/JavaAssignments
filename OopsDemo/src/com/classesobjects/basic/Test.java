@@ -1,0 +1,16 @@
+package com.classesobjects.basic;
+
+public class Test {
+
+	public static void main(String[] args) {
+		Employee e = new Employee("Ram", 1000);
+		e.getDetails();
+		String v = e.greetMessage("back");
+		System.out.println(v);
+		
+		Employee e1 = new Employee("Tom", 1500);
+		e1.getDetails();
+		System.out.println(e1.greetMessage("home"));
+	}
+
+}

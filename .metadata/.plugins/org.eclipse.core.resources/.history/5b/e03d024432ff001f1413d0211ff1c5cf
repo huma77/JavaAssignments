@@ -1,0 +1,17 @@
+package com.over.quest11;
+
+public class Vechicle {
+	String brand;
+	String model;
+	double year;
+	Vechicle(String brand, String model, double year){
+		
+	}
+	public Vechicle(String brand, String model, double year) {
+		super();
+		this.brand = brand;
+		this.model = model;
+		this.year = year;
+	}
+	
+}

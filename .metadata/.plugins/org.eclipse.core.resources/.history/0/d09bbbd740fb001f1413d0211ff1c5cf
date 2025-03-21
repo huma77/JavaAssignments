@@ -1,0 +1,13 @@
+package com.oops.quest2;
+
+public class StudentMain {
+
+	public static void main(String[] args) {
+		Student student = new Student("Huma", "it");
+		student.printDetails();
+		student.getGrades(78, 46, 67);
+		System.out.println();
+		 
+	}
+
+}

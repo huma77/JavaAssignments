@@ -1,0 +1,40 @@
+package com.over.quest1;
+
+import java.util.Scanner;
+
+public class OverloadMain {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		
+		// Get user input
+		System.out.println("Enter your name : ");
+		String name = sc.nextLine();
+		
+		System.out.println("Enter designation as Manager/programmer/Director ");
+		String designation = sc.nextLine();
+		
+		//Create 5 Employee objects
+		//Employee employee  = new Employee(String name, String designation);
+		Employee emp1 = new Employee("Alice", "Manager");
+		Employee emp2 = new Employee("Harry", "Producer");
+		Employee emp3 = new Employee("Huma",  "Organiser");
+		Employee emp4 = new Employee("Heena", "Product Manager");
+		Employee emp5 = new Employee("Hamza", "Cashier");
+		
+		// Add the objects to an employee array 
+		Employee[] employees = new Employee[5];
+		employees [0] = emp1;
+		employees [1] = emp2;
+		employees [2] = emp3;
+		employees [3] = emp4;
+		employees [4] = emp5;
+		
+		// Based on the designation call the appropriate calcBonus method 
+		
+	}
+	
+
+	
+
+}

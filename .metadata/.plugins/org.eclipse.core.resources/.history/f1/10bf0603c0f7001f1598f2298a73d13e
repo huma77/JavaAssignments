@@ -1,0 +1,9 @@
+package com.assign;
+
+public class Sum {
+
+	public static void main(String[] args) {
+
+	}
+
+}

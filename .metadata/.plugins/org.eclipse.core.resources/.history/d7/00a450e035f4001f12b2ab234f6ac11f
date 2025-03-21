@@ -1,0 +1,9 @@
+package com.demo.training;
+
+public class Doctor {
+
+		String doctorName;
+		double doctorFees;
+	
+
+}

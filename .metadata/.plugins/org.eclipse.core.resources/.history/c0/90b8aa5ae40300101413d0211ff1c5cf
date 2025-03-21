@@ -1,0 +1,10 @@
+package com.assign.test2;
+
+public class MainVehicle {
+
+	public static void main(String[] args) {
+		Vehicle vehicle = new Vehicle("Minicooper", 220);	//Obj of class
+		vehicle.displayDetails();
+	}
+
+}
